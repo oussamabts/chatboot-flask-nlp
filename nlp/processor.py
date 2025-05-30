@@ -17,9 +17,14 @@ else:
 
 def generate_answer(question):
     try:
-        # Check if the question already exists in storage
+        # Normalize the question for comparison
+        normalized_question = question.strip().lower()
+        if not normalized_question.endswith('?'):
+            normalized_question += '?'
+
+        # Check if the normalized question already exists in storage
         for entry in qa_storage.get("questions", []):
-            if entry["question"].lower() == question.lower():
+            if entry["question"].strip().lower() == normalized_question:
                 return {"answer": entry["answer"]}
         
         # Prompt user to provide an answer for learning

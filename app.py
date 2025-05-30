@@ -15,6 +15,11 @@ def ask():
     if not question:
         return jsonify({'error': 'Question is required'}), 400
 
+    # Normalize the question
+    question = question.strip()
+    if not question.endswith('?'):
+        question += '?'
+
     # Call generate_answer and return its output
     response = generate_answer(question)
     return jsonify(response), 200
