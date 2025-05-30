@@ -15,8 +15,9 @@ def ask():
     if not question:
         return jsonify({'error': 'Question is required'}), 400
 
-    answer = generate_answer(question)
-    return jsonify({'answer': answer}), 200
+    # Call generate_answer and return its output
+    response = generate_answer(question)
+    return jsonify(response), 200
 
 if __name__ == '__main__':
-    app.run(host='192.168.11.232', port=5000, debug=True)
+    app.run(port=5000, debug=True)
