@@ -1,27 +1,34 @@
 import os
-import google.generativeai as genai
+import json
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
-# Configure Gemini API
-genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+# Initialize a local storage for questions and answers
+qa_storage_path = os.getenv('QA_STORAGE_PATH', 'qa_storage.json')
 
-# Initialize the model using a free-tier-supported model
-model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
+# Load existing questions and answers from storage
+if os.path.exists(qa_storage_path):
+    with open(qa_storage_path, 'r') as file:
+        qa_storage = json.load(file)
+else:
+    qa_storage = {}
 
 def generate_answer(question):
     try:
-        # Educational prompt
-        prompt = f"""You are an educational assistant. Please provide a clear and educational response to the following question.
-        Question: {question}
+        # Check if the question already exists in storage
+        if question in qa_storage:
+            return qa_storage[question]
         
-        Please provide a detailed, accurate, and educational response. If the question is not educational in nature, 
-        kindly redirect the user to ask an educational question."""
+        # Prompt user to provide an answer for learning
+        answer = input(f"No answer found for: '{question}'. Please provide an answer: ")
         
-        # Generate response
-        response = model.generate_content(prompt)
-        return response.text
+        # Store the new question and answer
+        qa_storage[question] = answer
+        with open(qa_storage_path, 'w') as file:
+            json.dump(qa_storage, file)
+        
+        return answer
     except Exception as e:
         return f"Error generating answer: {str(e)}"
