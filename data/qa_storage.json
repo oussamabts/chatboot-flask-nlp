@@ -1,680 +1,688 @@
 {
-	"questions": [
-		{
-			"question": "What is AI?",
-			"answer": "AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines."
-		},
-		{
-			"question": "What is Flask?",
-			"answer": "Flask is a lightweight web framework for Python used to build web applications."
-		},
-		{
-			"question": "What is NLP?",
-			"answer": "NLP stands for Natural Language Processing, a field of AI focused on the interaction between computers and human language."
-		},
-		{
-			"question": "What is Python?",
-			"answer": "Python is a high-level, interpreted programming language known for its simplicity and readability."
-		},
-		{
-			"question": "What is Machine Learning?",
-			"answer": "Machine Learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed."
-		},
-		{
-			"question": "What is a chatbot?",
-			"answer": "A chatbot is a software application designed to simulate human conversation, often powered by AI."
-		},
-		{
-			"question": "What is JSON?",
-			"answer": "JSON stands for JavaScript Object Notation, a lightweight data-interchange format that is easy for humans to read and write."
-		},
-		{
-			"question": "What is REST API?",
-			"answer": "REST API is an architectural style for designing networked applications, relying on stateless communication and standard HTTP methods."
-		},
-		{
-			"question": "What is supervised learning?",
-			"answer": "Supervised learning is a type of machine learning where the model is trained on labeled data."
-		},
-		{
-			"question": "What is unsupervised learning?",
-			"answer": "Unsupervised learning is a type of machine learning where the model identifies patterns in data without labeled responses."
-		},
-		{
-			"question": "What is deep learning?",
-			"answer": "Deep learning is a subset of machine learning that uses neural networks with multiple layers to analyze data."
-		},
-		{
-			"question": "What is an algorithm?",
-			"answer": "An algorithm is a step-by-step procedure for solving a problem or performing a task."
-		},
-		{
-			"question": "What is data preprocessing?",
-			"answer": "Data preprocessing involves cleaning and transforming raw data into a format suitable for analysis."
-		},
-		{
-			"question": "What is a neural network?",
-			"answer": "A neural network is a series of algorithms that mimic the operations of a human brain to recognize relationships in data."
-		},
-		{
-			"question": "What is overfitting?",
-			"answer": "Overfitting is a modeling error that occurs when a machine learning algorithm captures noise instead of the underlying pattern in the data."
-		},
-		{
-			"question": "What is underfitting?",
-			"answer": "Underfitting occurs when a machine learning model is too simple to capture the underlying trend of the data."
-		},
-		{
-			"question": "What is cross-validation?",
-			"answer": "Cross-validation is a technique for assessing how the results of a statistical analysis will generalize to an independent data set."
-		},
-		{
-			"question": "What is a confusion matrix?",
-			"answer": "A confusion matrix is a table used to evaluate the performance of a machine learning model, showing the true vs. predicted classifications."
-		},
-		{
-			"question": "What is precision in machine learning?",
-			"answer": "Precision is the ratio of correctly predicted positive observations to the total predicted positives."
-		},
-		{
-			"question": "What is recall in machine learning?",
-			"answer": "Recall is the ratio of correctly predicted positive observations to the all observations in actual class."
-		},
-		{
-			"question": "What is F1 score?",
-			"answer": "F1 score is the weighted average of Precision and Recall, providing a balance between the two."
-		},
-		{
-			"question": "What is ROC curve?",
-			"answer": "ROC curve is a graphical representation of a classifier's performance across all classification thresholds."
-		},
-		{
-			"question": "What is AUC?",
-			"answer": "AUC stands for Area Under the ROC Curve, representing the degree or measure of separability achieved by the model."
-		},
-		{
-			"question": "What is feature engineering?",
-			"answer": "Feature engineering is the process of using domain knowledge to select, modify, or create features that make machine learning algorithms work."
-		},
-		{
-			"question": "What is dimensionality reduction?",
-			"answer": "Dimensionality reduction is the process of reducing the number of input variables in a dataset."
-		},
-		{
-			"question": "What is PCA?",
-			"answer": "PCA stands for Principal Component Analysis, a technique used for dimensionality reduction while preserving as much variance as possible."
-		},
-		{
-			"question": "What is t-SNE?",
-			"answer": "t-SNE is a machine learning algorithm for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets."
-		},
-		{
-			"question": "What is LDA?",
-			"answer": "LDA stands for Linear Discriminant Analysis, a classification and dimensionality reduction technique."
-		},
-		{
-			"question": "What is QDA?",
-			"answer": "QDA stands for Quadratic Discriminant Analysis, a classification technique that extends LDA by allowing for a non-linear decision boundary."
-		},
-		{
-			"question": "What is a decision tree?",
-			"answer": "A decision tree is a flowchart-like structure in which each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label."
-		},
-		{
-			"question": "What is a random forest?",
-			"answer": "A random forest is an ensemble of decision trees, typically used to improve the robustness and accuracy of predictions."
-		},
-		{
-			"question": "What is gradient boosting?",
-			"answer": "Gradient boosting is an ensemble technique that builds models sequentially, with each new model attempting to correct the errors made by the previous ones."
-		},
-		{
-			"question": "What is XGBoost?",
-			"answer": "XGBoost is an optimized gradient boosting library designed to be highly efficient, flexible, and portable."
-		},
-		{
-			"question": "What is LightGBM?",
-			"answer": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms, designed for distributed and efficient training."
-		},
-		{
-			"question": "What is CatBoost?",
-			"answer": "CatBoost is a gradient boosting library that is particularly effective with categorical features and requires less data preprocessing."
-		},
-		{
-			"question": "What is an ensemble method?",
-			"answer": "Ensemble methods are techniques that create multiple models and combine them to produce improved results."
-		},
-		{
-			"question": "What is bagging?",
-			"answer": "Bagging is an ensemble method that trains multiple models (usually of the same type) on different subsets of the training data and then combines their predictions."
-		},
-		{
-			"question": "What is boosting?",
-			"answer": "Boosting is an ensemble technique that adjusts the weight of an observation based on the last prediction, focusing more on the hard-to-predict cases."
-		},
-		{
-			"question": "What is stacking?",
-			"answer": "Stacking is an ensemble method that combines multiple classification or regression models via a meta-learner."
-		},
-		{
-			"question": "What is a meta-learner?",
-			"answer": "A meta-learner is a model that learns how to combine the predictions of other models."
-		},
-		{
-			"question": "What is transfer learning?",
-			"answer": "Transfer learning is a machine learning technique where a model developed for a particular task is reused as the starting point for a model on a second task."
-		},
-		{
-			"question": "What is fine-tuning in machine learning?",
-			"answer": "Fine-tuning is the process of making small adjustments to a machine learning model to improve its performance."
-		},
-		{
-			"question": "What is hyperparameter tuning?",
-			"answer": "Hyperparameter tuning is the process of optimizing the parameters that govern the training process of a machine learning model."
-		},
-		{
-			"question": "What is grid search?",
-			"answer": "Grid search is a hyperparameter optimization technique that exhaustively tests a predefined set of hyperparameters."
-		},
-		{
-			"question": "What is random search?",
-			"answer": "Random search is a hyperparameter optimization technique that randomly samples the hyperparameter space."
-		},
-		{
-			"question": "What is Bayesian optimization?",
-			"answer": "Bayesian optimization is a probabilistic model-based optimization technique, often used for hyperparameter tuning."
-		},
-		{
-			"question": "What is a learning curve?",
-			"answer": "A learning curve is a plot that shows the relationship between the size of the training set and the model's performance on the training and validation sets."
-		},
-		{
-			"question": "What is an ROC AUC score?",
-			"answer": "The ROC AUC score is a single scalar value that summarizes the performance of a classifier across all thresholds."
-		},
-		{
-			"question": "What is a precision-recall curve?",
-			"answer": "A precision-recall curve is a plot that shows the trade-off between precision and recall for different threshold values."
-		},
-		{
-			"question": "What is the purpose of regularization?",
-			"answer": "Regularization is used to prevent overfitting by adding a penalty term to the loss function."
-		},
-		{
-			"question": "What is L1 regularization?",
-			"answer": "L1 regularization, also known as Lasso regularization, adds a penalty equal to the absolute value of the magnitude of coefficients."
-		},
-		{
-			"question": "What is L2 regularization?",
-			"answer": "L2 regularization, also known as Ridge regularization, adds a penalty equal to the square of the magnitude of coefficients."
-		},
-		{
-			"question": "What is dropout in neural networks?",
-			"answer": "Dropout is a regularization technique for neural networks that randomly sets a fraction of the input units to 0 at each update during training."
-		},
-		{
-			"question": "What is batch normalization?",
-			"answer": "Batch normalization is a technique to improve the speed, performance, and stability of artificial neural networks."
-		},
-		{
-			"question": "What is an epoch in machine learning?",
-			"answer": "An epoch is one complete pass through the entire training dataset."
-		},
-		{
-			"question": "What is a batch in machine learning?",
-			"answer": "A batch is a subset of the training dataset used to train a machine learning model in one iteration."
-		},
-		{
-			"question": "What is online learning?",
-			"answer": "Online learning is a machine learning paradigm where the model is trained incrementally by feeding it data instances sequentially."
-		},
-		{
-			"question": "What is offline learning?",
-			"answer": "Offline learning, also known as batch learning, is a machine learning paradigm where the model is trained on the entire dataset at once."
-		},
-		{
-			"question": "What is reinforcement learning?",
-			"answer": "Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment to maximize some notion of cumulative reward."
-		},
-		{
-			"question": "What is a Markov decision process?",
-			"answer": "A Markov decision process is a mathematical framework for modeling decision-making where the outcomes are partly random and partly under the control of a decision maker."
-		},
-		{
-			"question": "What is Q-learning?",
-			"answer": "Q-learning is a model-free reinforcement learning algorithm that seeks to learn the best action to take given the current state."
-		},
-		{
-			"question": "What is deep Q-learning?",
-			"answer": "Deep Q-learning is an extension of Q-learning that uses a neural network to approximate the Q-value function."
-		},
-		{
-			"question": "What is policy gradient method?",
-			"answer": "Policy gradient methods are a type of reinforcement learning algorithm that optimize the policy directly."
-		},
-		{
-			"question": "What is actor-critic method?",
-			"answer": "The actor-critic method is a reinforcement learning algorithm that combines the benefits of value-based and policy-based methods."
-		},
-		{
-			"question": "What is a recurrent neural network (RNN)?",
-			"answer": "A recurrent neural network is a class of neural networks that is effective for modeling sequential data."
-		},
-		{
-			"question": "What is a long short-term memory (LSTM) network?",
-			"answer": "A long short-term memory network is a type of RNN that is capable of learning long-term dependencies."
-		},
-		{
-			"question": "What is a gated recurrent unit (GRU)?",
-			"answer": "A gated recurrent unit is a type of RNN architecture that is similar to an LSTM but with a simplified structure."
-		},
-		{
-			"question": "What is attention mechanism in neural networks?",
-			"answer": "The attention mechanism is a process that allows neural networks to focus on specific parts of the input sequence when making predictions."
-		},
-		{
-			"question": "What is a transformer model?",
-			"answer": "A transformer model is a type of neural network architecture that relies on self-attention mechanisms, commonly used in NLP tasks."
-		},
-		{
-			"question": "What is BERT?",
-			"answer": "BERT stands for Bidirectional Encoder Representations from Transformers, a transformer-based model designed to understand the context of a word in search queries."
-		},
-		{
-			"question": "What is GPT?",
-			"answer": "GPT stands for Generative Pre-trained Transformer, a type of transformer model that is trained to predict the next word in a sentence."
-		},
-		{
-			"question": "What is ELMo?",
-			"answer": "ELMo stands for Embeddings from Language Models, a deep contextualized word representation model."
-		},
-		{
-			"question": "What is ULMFiT?",
-			"answer": "ULMFiT stands for Universal Language Model Fine-tuning, a method for transfer learning in NLP."
-		},
-		{
-			"question": "What is fastText?",
-			"answer": "fastText is an open-source, free, lightweight library that allows users to learn text representations and train text classifiers."
-		},
-		{
-			"question": "What is Word2Vec?",
-			"answer": "Word2Vec is a group of related models that are used to produce word embeddings, which are numerical representations of words."
-		},
-		{
-			"question": "What is GloVe?",
-			"answer": "GloVe stands for Global Vectors for Word Representation, an unsupervised learning algorithm for obtaining vector representations for words."
-		},
-		{
-			"question": "What is a language model?",
-			"answer": "A language model is a statistical model that describes the probability of a sequence of words."
-		},
-		{
-			"question": "What is sentiment analysis?",
-			"answer": "Sentiment analysis is the process of determining the emotional tone behind a series of words."
-		},
-		{
-			"question": "What is topic modeling?",
-			"answer": "Topic modeling is a type of statistical model for discovering the abstract topics that occur in a collection of documents."
-		},
-		{
-			"question": "What is named entity recognition (NER)?",
-			"answer": "NER is a process of locating and classifying named entities in text into predefined categories."
-		},
-		{
-			"question": "What is part-of-speech tagging?",
-			"answer": "Part-of-speech tagging is the process of labeling words in a text as corresponding to a particular part of speech."
-		},
-		{
-			"question": "What is parsing in NLP?",
-			"answer": "Parsing is the process of analyzing a string of symbols, either in natural language or in computer languages."
-		},
-		{
-			"question": "What is a parse tree?",
-			"answer": "A parse tree is a tree that represents the syntactic structure of a string according to some formal grammar."
-		},
-		{
-			"question": "What is a dependency tree?",
-			"answer": "A dependency tree is a representation of the grammatical structure of a sentence, showing the dependencies between words."
-		},
-		{
-			"question": "What is a constituency tree?",
-			"answer": "A constituency tree is a type of parse tree that shows the nested structure of constituents in a sentence."
-		},
-		{
-			"question": "What is semantic role labeling?",
-			"answer": "Semantic role labeling is the process of assigning labels to words or phrases in a sentence that indicate their semantic role."
-		},
-		{
-			"question": "What is coreference resolution?",
-			"answer": "Coreference resolution is the task of determining which words in a sentence refer to the same entity."
-		},
-		{
-			"question": "What is word sense disambiguation?",
-			"answer": "Word sense disambiguation is the process of identifying which sense of a word is used in a given context."
-		},
-		{
-			"question": "What is text classification?",
-			"answer": "Text classification is the process of assigning categories or labels to text based on its content."
-		},
-		{
-			"question": "What is text summarization?",
-			"answer": "Text summarization is the process of creating a summary of a long text."
-		},
-		{
-			"question": "What is machine translation?",
-			"answer": "Machine translation is the task of automatically converting source language text into target language text."
-		},
-		{
-			"question": "What is speech recognition?",
-			"answer": "Speech recognition is the process of converting spoken language into text."
-		},
-		{
-			"question": "What is optical character recognition (OCR)?",
-			"answer": "OCR is the process of converting different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data."
-		},
-		{
-			"question": "What is a confusion matrix?",
-			"answer": "A confusion matrix is a table used to evaluate the performance of a machine learning model, showing the true vs. predicted classifications."
-		},
-		{
-			"question": "What is precision in machine learning?",
-			"answer": "Precision is the ratio of correctly predicted positive observations to the total predicted positives."
-		},
-		{
-			"question": "What is recall in machine learning?",
-			"answer": "Recall is the ratio of correctly predicted positive observations to the all observations in actual class."
-		},
-		{
-			"question": "What is F1 score?",
-			"answer": "F1 score is the weighted average of Precision and Recall, providing a balance between the two."
-		},
-		{
-			"question": "What is ROC curve?",
-			"answer": "ROC curve is a graphical representation of a classifier's performance across all classification thresholds."
-		},
-		{
-			"question": "What is AUC?",
-			"answer": "AUC stands for Area Under the ROC Curve, representing the degree or measure of separability achieved by the model."
-		},
-		{
-			"question": "What is feature engineering?",
-			"answer": "Feature engineering is the process of using domain knowledge to select, modify, or create features that make machine learning algorithms work."
-		},
-		{
-			"question": "What is dimensionality reduction?",
-			"answer": "Dimensionality reduction is the process of reducing the number of input variables in a dataset."
-		},
-		{
-			"question": "What is PCA?",
-			"answer": "PCA stands for Principal Component Analysis, a technique used for dimensionality reduction while preserving as much variance as possible."
-		},
-		{
-			"question": "What is t-SNE?",
-			"answer": "t-SNE is a machine learning algorithm for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets."
-		},
-		{
-			"question": "What is LDA?",
-			"answer": "LDA stands for Linear Discriminant Analysis, a classification and dimensionality reduction technique."
-		},
-		{
-			"question": "What is QDA?",
-			"answer": "QDA stands for Quadratic Discriminant Analysis, a classification technique that extends LDA by allowing for a non-linear decision boundary."
-		},
-		{
-			"question": "What is a decision tree?",
-			"answer": "A decision tree is a flowchart-like structure in which each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label."
-		},
-		{
-			"question": "What is a random forest?",
-			"answer": "A random forest is an ensemble of decision trees, typically used to improve the robustness and accuracy of predictions."
-		},
-		{
-			"question": "What is gradient boosting?",
-			"answer": "Gradient boosting is an ensemble technique that builds models sequentially, with each new model attempting to correct the errors made by the previous ones."
-		},
-		{
-			"question": "What is XGBoost?",
-			"answer": "XGBoost is an optimized gradient boosting library designed to be highly efficient, flexible, and portable."
-		},
-		{
-			"question": "What is LightGBM?",
-			"answer": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms, designed for distributed and efficient training."
-		},
-		{
-			"question": "What is CatBoost?",
-			"answer": "CatBoost is a gradient boosting library that is particularly effective with categorical features and requires less data preprocessing."
-		},
-		{
-			"question": "What is an ensemble method?",
-			"answer": "Ensemble methods are techniques that create multiple models and combine them to produce improved results."
-		},
-		{
-			"question": "What is bagging?",
-			"answer": "Bagging is an ensemble method that trains multiple models (usually of the same type) on different subsets of the training data and then combines their predictions."
-		},
-		{
-			"question": "What is boosting?",
-			"answer": "Boosting is an ensemble technique that adjusts the weight of an observation based on the last prediction, focusing more on the hard-to-predict cases."
-		},
-		{
-			"question": "What is stacking?",
-			"answer": "Stacking is an ensemble method that combines multiple classification or regression models via a meta-learner."
-		},
-		{
-			"question": "What is a meta-learner?",
-			"answer": "A meta-learner is a model that learns how to combine the predictions of other models."
-		},
-		{
-			"question": "What is transfer learning?",
-			"answer": "Transfer learning is a machine learning technique where a model developed for a particular task is reused as the starting point for a model on a second task."
-		},
-		{
-			"question": "What is fine-tuning in machine learning?",
-			"answer": "Fine-tuning is the process of making small adjustments to a machine learning model to improve its performance."
-		},
-		{
-			"question": "What is hyperparameter tuning?",
-			"answer": "Hyperparameter tuning is the process of optimizing the parameters that govern the training process of a machine learning model."
-		},
-		{
-			"question": "What is grid search?",
-			"answer": "Grid search is a hyperparameter optimization technique that exhaustively tests a predefined set of hyperparameters."
-		},
-		{
-			"question": "What is random search?",
-			"answer": "Random search is a hyperparameter optimization technique that randomly samples the hyperparameter space."
-		},
-		{
-			"question": "What is Bayesian optimization?",
-			"answer": "Bayesian optimization is a probabilistic model-based optimization technique, often used for hyperparameter tuning."
-		},
-		{
-			"question": "What is a learning curve?",
-			"answer": "A learning curve is a plot that shows the relationship between the size of the training set and the model's performance on the training and validation sets."
-		},
-		{
-			"question": "What is an ROC AUC score?",
-			"answer": "The ROC AUC score is a single scalar value that summarizes the performance of a classifier across all thresholds."
-		},
-		{
-			"question": "What is a precision-recall curve?",
-			"answer": "A precision-recall curve is a plot that shows the trade-off between precision and recall for different threshold values."
-		},
-		{
-			"question": "What is the purpose of regularization?",
-			"answer": "Regularization is used to prevent overfitting by adding a penalty term to the loss function."
-		},
-		{
-			"question": "What is L1 regularization?",
-			"answer": "L1 regularization, also known as Lasso regularization, adds a penalty equal to the absolute value of the magnitude of coefficients."
-		},
-		{
-			"question": "What is L2 regularization?",
-			"answer": "L2 regularization, also known as Ridge regularization, adds a penalty equal to the square of the magnitude of coefficients."
-		},
-		{
-			"question": "What is dropout in neural networks?",
-			"answer": "Dropout is a regularization technique for neural networks that randomly sets a fraction of the input units to 0 at each update during training."
-		},
-		{
-			"question": "What is batch normalization?",
-			"answer": "Batch normalization is a technique to improve the speed, performance, and stability of artificial neural networks."
-		},
-		{
-			"question": "What is an epoch in machine learning?",
-			"answer": "An epoch is one complete pass through the entire training dataset."
-		},
-		{
-			"question": "What is a batch in machine learning?",
-			"answer": "A batch is a subset of the training dataset used to train a machine learning model in one iteration."
-		},
-		{
-			"question": "What is online learning?",
-			"answer": "Online learning is a machine learning paradigm where the model is trained incrementally by feeding it data instances sequentially."
-		},
-		{
-			"question": "What is offline learning?",
-			"answer": "Offline learning, also known as batch learning, is a machine learning paradigm where the model is trained on the entire dataset at once."
-		},
-		{
-			"question": "What is reinforcement learning?",
-			"answer": "Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment to maximize some notion of cumulative reward."
-		},
-		{
-			"question": "What is a Markov decision process?",
-			"answer": "A Markov decision process is a mathematical framework for modeling decision-making where the outcomes are partly random and partly under the control of a decision maker."
-		},
-		{
-			"question": "What is Q-learning?",
-			"answer": "Q-learning is a model-free reinforcement learning algorithm that seeks to learn the best action to take given the current state."
-		},
-		{
-			"question": "What is deep Q-learning?",
-			"answer": "Deep Q-learning is an extension of Q-learning that uses a neural network to approximate the Q-value function."
-		},
-		{
-			"question": "What is policy gradient method?",
-			"answer": "Policy gradient methods are a type of reinforcement learning algorithm that optimize the policy directly."
-		},
-		{
-			"question": "What is actor-critic method?",
-			"answer": "The actor-critic method is a reinforcement learning algorithm that combines the benefits of value-based and policy-based methods."
-		},
-		{
-			"question": "What is a recurrent neural network (RNN)?",
-			"answer": "A recurrent neural network is a class of neural networks that is effective for modeling sequential data."
-		},
-		{
-			"question": "What is a long short-term memory (LSTM) network?",
-			"answer": "A long short-term memory network is a type of RNN that is capable of learning long-term dependencies."
-		},
-		{
-			"question": "What is a gated recurrent unit (GRU)?",
-			"answer": "A gated recurrent unit is a type of RNN architecture that is similar to an LSTM but with a simplified structure."
-		},
-		{
-			"question": "What is attention mechanism in neural networks?",
-			"answer": "The attention mechanism is a process that allows neural networks to focus on specific parts of the input sequence when making predictions."
-		},
-		{
-			"question": "What is a transformer model?",
-			"answer": "A transformer model is a type of neural network architecture that relies on self-attention mechanisms, commonly used in NLP tasks."
-		},
-		{
-			"question": "What is BERT?",
-			"answer": "BERT stands for Bidirectional Encoder Representations from Transformers, a transformer-based model designed to understand the context of a word in search queries."
-		},
-		{
-			"question": "What is GPT?",
-			"answer": "GPT stands for Generative Pre-trained Transformer, a type of transformer model that is trained to predict the next word in a sentence."
-		},
-		{
-			"question": "What is ELMo?",
-			"answer": "ELMo stands for Embeddings from Language Models, a deep contextualized word representation model."
-		},
-		{
-			"question": "What is ULMFiT?",
-			"answer": "ULMFiT stands for Universal Language Model Fine-tuning, a method for transfer learning in NLP."
-		},
-		{
-			"question": "What is fastText?",
-			"answer": "fastText is an open-source, free, lightweight library that allows users to learn text representations and train text classifiers."
-		},
-		{
-			"question": "What is Word2Vec?",
-			"answer": "Word2Vec is a group of related models that are used to produce word embeddings, which are numerical representations of words."
-		},
-		{
-			"question": "What is GloVe?",
-			"answer": "GloVe stands for Global Vectors for Word Representation, an unsupervised learning algorithm for obtaining vector representations for words."
-		},
-		{
-			"question": "What is a language model?",
-			"answer": "A language model is a statistical model that describes the probability of a sequence of words."
-		},
-		{
-			"question": "What is sentiment analysis?",
-			"answer": "Sentiment analysis is the process of determining the emotional tone behind a series of words."
-		},
-		{
-			"question": "What is topic modeling?",
-			"answer": "Topic modeling is a type of statistical model for discovering the abstract topics that occur in a collection of documents."
-		},
-		{
-			"question": "What is named entity recognition (NER)?",
-			"answer": "NER is a process of locating and classifying named entities in text into predefined categories."
-		},
-		{
-			"question": "What is part-of-speech tagging?",
-			"answer": "Part-of-speech tagging is the process of labeling words in a text as corresponding to a particular part of speech."
-		},
-		{
-			"question": "What is parsing in NLP?",
-			"answer": "Parsing is the process of analyzing a string of symbols, either in natural language or in computer languages."
-		},
-		{
-			"question": "What is a parse tree?",
-			"answer": "A parse tree is a tree that represents the syntactic structure of a string according to some formal grammar."
-		},
-		{
-			"question": "What is a dependency tree?",
-			"answer": "A dependency tree is a representation of the grammatical structure of a sentence, showing the dependencies between words."
-		},
-		{
-			"question": "What is a constituency tree?",
-			"answer": "A constituency tree is a type of parse tree that shows the nested structure of constituents in a sentence."
-		},
-		{
-			"question": "What is semantic role labeling?",
-			"answer": "Semantic role labeling is the process of assigning labels to words or phrases in a sentence that indicate their semantic role."
-		},
-		{
-			"question": "What is coreference resolution?",
-			"answer": "Coreference resolution is the task of determining which words in a sentence refer to the same entity."
-		},
-		{
-			"question": "What is word sense disambiguation?",
-			"answer": "Word sense disambiguation is the process of identifying which sense of a word is used in a given context."
-		},
-		{
-			"question": "What is text classification?",
-			"answer": "Text classification is the process of assigning categories or labels to text based on its content."
-		},
-		{
-			"question": "What is text summarization?",
-			"answer": "Text summarization is the process of creating a summary of a long text."
-		},
-		{
-			"question": "What is machine translation?",
-			"answer": "Machine translation is the task of automatically converting source language text into target language text."
-		},
-		{
-			"question": "What is speech recognition?",
-			"answer": "Speech recognition is the process of converting spoken language into text."
-		},
-		{
-			"question": "What is optical character recognition (OCR)?",
-			"answer": "OCR is the process of converting different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data."
-		}
-	]
+    "questions": [
+        {
+            "question": "What is AI?",
+            "answer": "AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines."
+        },
+        {
+            "question": "What is Flask?",
+            "answer": "Flask is a lightweight web framework for Python used to build web applications."
+        },
+        {
+            "question": "What is NLP?",
+            "answer": "NLP stands for Natural Language Processing, a field of AI focused on the interaction between computers and human language."
+        },
+        {
+            "question": "What is Python?",
+            "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+        },
+        {
+            "question": "What is Machine Learning?",
+            "answer": "Machine Learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed."
+        },
+        {
+            "question": "What is a chatbot?",
+            "answer": "A chatbot is a software application designed to simulate human conversation, often powered by AI."
+        },
+        {
+            "question": "What is JSON?",
+            "answer": "JSON stands for JavaScript Object Notation, a lightweight data-interchange format that is easy for humans to read and write."
+        },
+        {
+            "question": "What is REST API?",
+            "answer": "REST API is an architectural style for designing networked applications, relying on stateless communication and standard HTTP methods."
+        },
+        {
+            "question": "What is supervised learning?",
+            "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data."
+        },
+        {
+            "question": "What is unsupervised learning?",
+            "answer": "Unsupervised learning is a type of machine learning where the model identifies patterns in data without labeled responses."
+        },
+        {
+            "question": "What is deep learning?",
+            "answer": "Deep learning is a subset of machine learning that uses neural networks with multiple layers to analyze data."
+        },
+        {
+            "question": "What is an algorithm?",
+            "answer": "An algorithm is a step-by-step procedure for solving a problem or performing a task."
+        },
+        {
+            "question": "What is data preprocessing?",
+            "answer": "Data preprocessing involves cleaning and transforming raw data into a format suitable for analysis."
+        },
+        {
+            "question": "What is a neural network?",
+            "answer": "A neural network is a series of algorithms that mimic the operations of a human brain to recognize relationships in data."
+        },
+        {
+            "question": "What is overfitting?",
+            "answer": "Overfitting is a modeling error that occurs when a machine learning algorithm captures noise instead of the underlying pattern in the data."
+        },
+        {
+            "question": "What is underfitting?",
+            "answer": "Underfitting occurs when a machine learning model is too simple to capture the underlying trend of the data."
+        },
+        {
+            "question": "What is cross-validation?",
+            "answer": "Cross-validation is a technique for assessing how the results of a statistical analysis will generalize to an independent data set."
+        },
+        {
+            "question": "What is a confusion matrix?",
+            "answer": "A confusion matrix is a table used to evaluate the performance of a machine learning model, showing the true vs. predicted classifications."
+        },
+        {
+            "question": "What is precision in machine learning?",
+            "answer": "Precision is the ratio of correctly predicted positive observations to the total predicted positives."
+        },
+        {
+            "question": "What is recall in machine learning?",
+            "answer": "Recall is the ratio of correctly predicted positive observations to the all observations in actual class."
+        },
+        {
+            "question": "What is F1 score?",
+            "answer": "F1 score is the weighted average of Precision and Recall, providing a balance between the two."
+        },
+        {
+            "question": "What is ROC curve?",
+            "answer": "ROC curve is a graphical representation of a classifier's performance across all classification thresholds."
+        },
+        {
+            "question": "What is AUC?",
+            "answer": "AUC stands for Area Under the ROC Curve, representing the degree or measure of separability achieved by the model."
+        },
+        {
+            "question": "What is feature engineering?",
+            "answer": "Feature engineering is the process of using domain knowledge to select, modify, or create features that make machine learning algorithms work."
+        },
+        {
+            "question": "What is dimensionality reduction?",
+            "answer": "Dimensionality reduction is the process of reducing the number of input variables in a dataset."
+        },
+        {
+            "question": "What is PCA?",
+            "answer": "PCA stands for Principal Component Analysis, a technique used for dimensionality reduction while preserving as much variance as possible."
+        },
+        {
+            "question": "What is t-SNE?",
+            "answer": "t-SNE is a machine learning algorithm for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets."
+        },
+        {
+            "question": "What is LDA?",
+            "answer": "LDA stands for Linear Discriminant Analysis, a classification and dimensionality reduction technique."
+        },
+        {
+            "question": "What is QDA?",
+            "answer": "QDA stands for Quadratic Discriminant Analysis, a classification technique that extends LDA by allowing for a non-linear decision boundary."
+        },
+        {
+            "question": "What is a decision tree?",
+            "answer": "A decision tree is a flowchart-like structure in which each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label."
+        },
+        {
+            "question": "What is a random forest?",
+            "answer": "A random forest is an ensemble of decision trees, typically used to improve the robustness and accuracy of predictions."
+        },
+        {
+            "question": "What is gradient boosting?",
+            "answer": "Gradient boosting is an ensemble technique that builds models sequentially, with each new model attempting to correct the errors made by the previous ones."
+        },
+        {
+            "question": "What is XGBoost?",
+            "answer": "XGBoost is an optimized gradient boosting library designed to be highly efficient, flexible, and portable."
+        },
+        {
+            "question": "What is LightGBM?",
+            "answer": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms, designed for distributed and efficient training."
+        },
+        {
+            "question": "What is CatBoost?",
+            "answer": "CatBoost is a gradient boosting library that is particularly effective with categorical features and requires less data preprocessing."
+        },
+        {
+            "question": "What is an ensemble method?",
+            "answer": "Ensemble methods are techniques that create multiple models and combine them to produce improved results."
+        },
+        {
+            "question": "What is bagging?",
+            "answer": "Bagging is an ensemble method that trains multiple models (usually of the same type) on different subsets of the training data and then combines their predictions."
+        },
+        {
+            "question": "What is boosting?",
+            "answer": "Boosting is an ensemble technique that adjusts the weight of an observation based on the last prediction, focusing more on the hard-to-predict cases."
+        },
+        {
+            "question": "What is stacking?",
+            "answer": "Stacking is an ensemble method that combines multiple classification or regression models via a meta-learner."
+        },
+        {
+            "question": "What is a meta-learner?",
+            "answer": "A meta-learner is a model that learns how to combine the predictions of other models."
+        },
+        {
+            "question": "What is transfer learning?",
+            "answer": "Transfer learning is a machine learning technique where a model developed for a particular task is reused as the starting point for a model on a second task."
+        },
+        {
+            "question": "What is fine-tuning in machine learning?",
+            "answer": "Fine-tuning is the process of making small adjustments to a machine learning model to improve its performance."
+        },
+        {
+            "question": "What is hyperparameter tuning?",
+            "answer": "Hyperparameter tuning is the process of optimizing the parameters that govern the training process of a machine learning model."
+        },
+        {
+            "question": "What is grid search?",
+            "answer": "Grid search is a hyperparameter optimization technique that exhaustively tests a predefined set of hyperparameters."
+        },
+        {
+            "question": "What is random search?",
+            "answer": "Random search is a hyperparameter optimization technique that randomly samples the hyperparameter space."
+        },
+        {
+            "question": "What is Bayesian optimization?",
+            "answer": "Bayesian optimization is a probabilistic model-based optimization technique, often used for hyperparameter tuning."
+        },
+        {
+            "question": "What is a learning curve?",
+            "answer": "A learning curve is a plot that shows the relationship between the size of the training set and the model's performance on the training and validation sets."
+        },
+        {
+            "question": "What is an ROC AUC score?",
+            "answer": "The ROC AUC score is a single scalar value that summarizes the performance of a classifier across all thresholds."
+        },
+        {
+            "question": "What is a precision-recall curve?",
+            "answer": "A precision-recall curve is a plot that shows the trade-off between precision and recall for different threshold values."
+        },
+        {
+            "question": "What is the purpose of regularization?",
+            "answer": "Regularization is used to prevent overfitting by adding a penalty term to the loss function."
+        },
+        {
+            "question": "What is L1 regularization?",
+            "answer": "L1 regularization, also known as Lasso regularization, adds a penalty equal to the absolute value of the magnitude of coefficients."
+        },
+        {
+            "question": "What is L2 regularization?",
+            "answer": "L2 regularization, also known as Ridge regularization, adds a penalty equal to the square of the magnitude of coefficients."
+        },
+        {
+            "question": "What is dropout in neural networks?",
+            "answer": "Dropout is a regularization technique for neural networks that randomly sets a fraction of the input units to 0 at each update during training."
+        },
+        {
+            "question": "What is batch normalization?",
+            "answer": "Batch normalization is a technique to improve the speed, performance, and stability of artificial neural networks."
+        },
+        {
+            "question": "What is an epoch in machine learning?",
+            "answer": "An epoch is one complete pass through the entire training dataset."
+        },
+        {
+            "question": "What is a batch in machine learning?",
+            "answer": "A batch is a subset of the training dataset used to train a machine learning model in one iteration."
+        },
+        {
+            "question": "What is online learning?",
+            "answer": "Online learning is a machine learning paradigm where the model is trained incrementally by feeding it data instances sequentially."
+        },
+        {
+            "question": "What is offline learning?",
+            "answer": "Offline learning, also known as batch learning, is a machine learning paradigm where the model is trained on the entire dataset at once."
+        },
+        {
+            "question": "What is reinforcement learning?",
+            "answer": "Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment to maximize some notion of cumulative reward."
+        },
+        {
+            "question": "What is a Markov decision process?",
+            "answer": "A Markov decision process is a mathematical framework for modeling decision-making where the outcomes are partly random and partly under the control of a decision maker."
+        },
+        {
+            "question": "What is Q-learning?",
+            "answer": "Q-learning is a model-free reinforcement learning algorithm that seeks to learn the best action to take given the current state."
+        },
+        {
+            "question": "What is deep Q-learning?",
+            "answer": "Deep Q-learning is an extension of Q-learning that uses a neural network to approximate the Q-value function."
+        },
+        {
+            "question": "What is policy gradient method?",
+            "answer": "Policy gradient methods are a type of reinforcement learning algorithm that optimize the policy directly."
+        },
+        {
+            "question": "What is actor-critic method?",
+            "answer": "The actor-critic method is a reinforcement learning algorithm that combines the benefits of value-based and policy-based methods."
+        },
+        {
+            "question": "What is a recurrent neural network (RNN)?",
+            "answer": "A recurrent neural network is a class of neural networks that is effective for modeling sequential data."
+        },
+        {
+            "question": "What is a long short-term memory (LSTM) network?",
+            "answer": "A long short-term memory network is a type of RNN that is capable of learning long-term dependencies."
+        },
+        {
+            "question": "What is a gated recurrent unit (GRU)?",
+            "answer": "A gated recurrent unit is a type of RNN architecture that is similar to an LSTM but with a simplified structure."
+        },
+        {
+            "question": "What is attention mechanism in neural networks?",
+            "answer": "The attention mechanism is a process that allows neural networks to focus on specific parts of the input sequence when making predictions."
+        },
+        {
+            "question": "What is a transformer model?",
+            "answer": "A transformer model is a type of neural network architecture that relies on self-attention mechanisms, commonly used in NLP tasks."
+        },
+        {
+            "question": "What is BERT?",
+            "answer": "BERT stands for Bidirectional Encoder Representations from Transformers, a transformer-based model designed to understand the context of a word in search queries."
+        },
+        {
+            "question": "What is GPT?",
+            "answer": "GPT stands for Generative Pre-trained Transformer, a type of transformer model that is trained to predict the next word in a sentence."
+        },
+        {
+            "question": "What is ELMo?",
+            "answer": "ELMo stands for Embeddings from Language Models, a deep contextualized word representation model."
+        },
+        {
+            "question": "What is ULMFiT?",
+            "answer": "ULMFiT stands for Universal Language Model Fine-tuning, a method for transfer learning in NLP."
+        },
+        {
+            "question": "What is fastText?",
+            "answer": "fastText is an open-source, free, lightweight library that allows users to learn text representations and train text classifiers."
+        },
+        {
+            "question": "What is Word2Vec?",
+            "answer": "Word2Vec is a group of related models that are used to produce word embeddings, which are numerical representations of words."
+        },
+        {
+            "question": "What is GloVe?",
+            "answer": "GloVe stands for Global Vectors for Word Representation, an unsupervised learning algorithm for obtaining vector representations for words."
+        },
+        {
+            "question": "What is a language model?",
+            "answer": "A language model is a statistical model that describes the probability of a sequence of words."
+        },
+        {
+            "question": "What is sentiment analysis?",
+            "answer": "Sentiment analysis is the process of determining the emotional tone behind a series of words."
+        },
+        {
+            "question": "What is topic modeling?",
+            "answer": "Topic modeling is a type of statistical model for discovering the abstract topics that occur in a collection of documents."
+        },
+        {
+            "question": "What is named entity recognition (NER)?",
+            "answer": "NER is a process of locating and classifying named entities in text into predefined categories."
+        },
+        {
+            "question": "What is part-of-speech tagging?",
+            "answer": "Part-of-speech tagging is the process of labeling words in a text as corresponding to a particular part of speech."
+        },
+        {
+            "question": "What is parsing in NLP?",
+            "answer": "Parsing is the process of analyzing a string of symbols, either in natural language or in computer languages."
+        },
+        {
+            "question": "What is a parse tree?",
+            "answer": "A parse tree is a tree that represents the syntactic structure of a string according to some formal grammar."
+        },
+        {
+            "question": "What is a dependency tree?",
+            "answer": "A dependency tree is a representation of the grammatical structure of a sentence, showing the dependencies between words."
+        },
+        {
+            "question": "What is a constituency tree?",
+            "answer": "A constituency tree is a type of parse tree that shows the nested structure of constituents in a sentence."
+        },
+        {
+            "question": "What is semantic role labeling?",
+            "answer": "Semantic role labeling is the process of assigning labels to words or phrases in a sentence that indicate their semantic role."
+        },
+        {
+            "question": "What is coreference resolution?",
+            "answer": "Coreference resolution is the task of determining which words in a sentence refer to the same entity."
+        },
+        {
+            "question": "What is word sense disambiguation?",
+            "answer": "Word sense disambiguation is the process of identifying which sense of a word is used in a given context."
+        },
+        {
+            "question": "What is text classification?",
+            "answer": "Text classification is the process of assigning categories or labels to text based on its content."
+        },
+        {
+            "question": "What is text summarization?",
+            "answer": "Text summarization is the process of creating a summary of a long text."
+        },
+        {
+            "question": "What is machine translation?",
+            "answer": "Machine translation is the task of automatically converting source language text into target language text."
+        },
+        {
+            "question": "What is speech recognition?",
+            "answer": "Speech recognition is the process of converting spoken language into text."
+        },
+        {
+            "question": "What is optical character recognition (OCR)?",
+            "answer": "OCR is the process of converting different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data."
+        },
+        {
+            "question": "What is a confusion matrix?",
+            "answer": "A confusion matrix is a table used to evaluate the performance of a machine learning model, showing the true vs. predicted classifications."
+        },
+        {
+            "question": "What is precision in machine learning?",
+            "answer": "Precision is the ratio of correctly predicted positive observations to the total predicted positives."
+        },
+        {
+            "question": "What is recall in machine learning?",
+            "answer": "Recall is the ratio of correctly predicted positive observations to the all observations in actual class."
+        },
+        {
+            "question": "What is F1 score?",
+            "answer": "F1 score is the weighted average of Precision and Recall, providing a balance between the two."
+        },
+        {
+            "question": "What is ROC curve?",
+            "answer": "ROC curve is a graphical representation of a classifier's performance across all classification thresholds."
+        },
+        {
+            "question": "What is AUC?",
+            "answer": "AUC stands for Area Under the ROC Curve, representing the degree or measure of separability achieved by the model."
+        },
+        {
+            "question": "What is feature engineering?",
+            "answer": "Feature engineering is the process of using domain knowledge to select, modify, or create features that make machine learning algorithms work."
+        },
+        {
+            "question": "What is dimensionality reduction?",
+            "answer": "Dimensionality reduction is the process of reducing the number of input variables in a dataset."
+        },
+        {
+            "question": "What is PCA?",
+            "answer": "PCA stands for Principal Component Analysis, a technique used for dimensionality reduction while preserving as much variance as possible."
+        },
+        {
+            "question": "What is t-SNE?",
+            "answer": "t-SNE is a machine learning algorithm for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets."
+        },
+        {
+            "question": "What is LDA?",
+            "answer": "LDA stands for Linear Discriminant Analysis, a classification and dimensionality reduction technique."
+        },
+        {
+            "question": "What is QDA?",
+            "answer": "QDA stands for Quadratic Discriminant Analysis, a classification technique that extends LDA by allowing for a non-linear decision boundary."
+        },
+        {
+            "question": "What is a decision tree?",
+            "answer": "A decision tree is a flowchart-like structure in which each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label."
+        },
+        {
+            "question": "What is a random forest?",
+            "answer": "A random forest is an ensemble of decision trees, typically used to improve the robustness and accuracy of predictions."
+        },
+        {
+            "question": "What is gradient boosting?",
+            "answer": "Gradient boosting is an ensemble technique that builds models sequentially, with each new model attempting to correct the errors made by the previous ones."
+        },
+        {
+            "question": "What is XGBoost?",
+            "answer": "XGBoost is an optimized gradient boosting library designed to be highly efficient, flexible, and portable."
+        },
+        {
+            "question": "What is LightGBM?",
+            "answer": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms, designed for distributed and efficient training."
+        },
+        {
+            "question": "What is CatBoost?",
+            "answer": "CatBoost is a gradient boosting library that is particularly effective with categorical features and requires less data preprocessing."
+        },
+        {
+            "question": "What is an ensemble method?",
+            "answer": "Ensemble methods are techniques that create multiple models and combine them to produce improved results."
+        },
+        {
+            "question": "What is bagging?",
+            "answer": "Bagging is an ensemble method that trains multiple models (usually of the same type) on different subsets of the training data and then combines their predictions."
+        },
+        {
+            "question": "What is boosting?",
+            "answer": "Boosting is an ensemble technique that adjusts the weight of an observation based on the last prediction, focusing more on the hard-to-predict cases."
+        },
+        {
+            "question": "What is stacking?",
+            "answer": "Stacking is an ensemble method that combines multiple classification or regression models via a meta-learner."
+        },
+        {
+            "question": "What is a meta-learner?",
+            "answer": "A meta-learner is a model that learns how to combine the predictions of other models."
+        },
+        {
+            "question": "What is transfer learning?",
+            "answer": "Transfer learning is a machine learning technique where a model developed for a particular task is reused as the starting point for a model on a second task."
+        },
+        {
+            "question": "What is fine-tuning in machine learning?",
+            "answer": "Fine-tuning is the process of making small adjustments to a machine learning model to improve its performance."
+        },
+        {
+            "question": "What is hyperparameter tuning?",
+            "answer": "Hyperparameter tuning is the process of optimizing the parameters that govern the training process of a machine learning model."
+        },
+        {
+            "question": "What is grid search?",
+            "answer": "Grid search is a hyperparameter optimization technique that exhaustively tests a predefined set of hyperparameters."
+        },
+        {
+            "question": "What is random search?",
+            "answer": "Random search is a hyperparameter optimization technique that randomly samples the hyperparameter space."
+        },
+        {
+            "question": "What is Bayesian optimization?",
+            "answer": "Bayesian optimization is a probabilistic model-based optimization technique, often used for hyperparameter tuning."
+        },
+        {
+            "question": "What is a learning curve?",
+            "answer": "A learning curve is a plot that shows the relationship between the size of the training set and the model's performance on the training and validation sets."
+        },
+        {
+            "question": "What is an ROC AUC score?",
+            "answer": "The ROC AUC score is a single scalar value that summarizes the performance of a classifier across all thresholds."
+        },
+        {
+            "question": "What is a precision-recall curve?",
+            "answer": "A precision-recall curve is a plot that shows the trade-off between precision and recall for different threshold values."
+        },
+        {
+            "question": "What is the purpose of regularization?",
+            "answer": "Regularization is used to prevent overfitting by adding a penalty term to the loss function."
+        },
+        {
+            "question": "What is L1 regularization?",
+            "answer": "L1 regularization, also known as Lasso regularization, adds a penalty equal to the absolute value of the magnitude of coefficients."
+        },
+        {
+            "question": "What is L2 regularization?",
+            "answer": "L2 regularization, also known as Ridge regularization, adds a penalty equal to the square of the magnitude of coefficients."
+        },
+        {
+            "question": "What is dropout in neural networks?",
+            "answer": "Dropout is a regularization technique for neural networks that randomly sets a fraction of the input units to 0 at each update during training."
+        },
+        {
+            "question": "What is batch normalization?",
+            "answer": "Batch normalization is a technique to improve the speed, performance, and stability of artificial neural networks."
+        },
+        {
+            "question": "What is an epoch in machine learning?",
+            "answer": "An epoch is one complete pass through the entire training dataset."
+        },
+        {
+            "question": "What is a batch in machine learning?",
+            "answer": "A batch is a subset of the training dataset used to train a machine learning model in one iteration."
+        },
+        {
+            "question": "What is online learning?",
+            "answer": "Online learning is a machine learning paradigm where the model is trained incrementally by feeding it data instances sequentially."
+        },
+        {
+            "question": "What is offline learning?",
+            "answer": "Offline learning, also known as batch learning, is a machine learning paradigm where the model is trained on the entire dataset at once."
+        },
+        {
+            "question": "What is reinforcement learning?",
+            "answer": "Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment to maximize some notion of cumulative reward."
+        },
+        {
+            "question": "What is a Markov decision process?",
+            "answer": "A Markov decision process is a mathematical framework for modeling decision-making where the outcomes are partly random and partly under the control of a decision maker."
+        },
+        {
+            "question": "What is Q-learning?",
+            "answer": "Q-learning is a model-free reinforcement learning algorithm that seeks to learn the best action to take given the current state."
+        },
+        {
+            "question": "What is deep Q-learning?",
+            "answer": "Deep Q-learning is an extension of Q-learning that uses a neural network to approximate the Q-value function."
+        },
+        {
+            "question": "What is policy gradient method?",
+            "answer": "Policy gradient methods are a type of reinforcement learning algorithm that optimize the policy directly."
+        },
+        {
+            "question": "What is actor-critic method?",
+            "answer": "The actor-critic method is a reinforcement learning algorithm that combines the benefits of value-based and policy-based methods."
+        },
+        {
+            "question": "What is a recurrent neural network (RNN)?",
+            "answer": "A recurrent neural network is a class of neural networks that is effective for modeling sequential data."
+        },
+        {
+            "question": "What is a long short-term memory (LSTM) network?",
+            "answer": "A long short-term memory network is a type of RNN that is capable of learning long-term dependencies."
+        },
+        {
+            "question": "What is a gated recurrent unit (GRU)?",
+            "answer": "A gated recurrent unit is a type of RNN architecture that is similar to an LSTM but with a simplified structure."
+        },
+        {
+            "question": "What is attention mechanism in neural networks?",
+            "answer": "The attention mechanism is a process that allows neural networks to focus on specific parts of the input sequence when making predictions."
+        },
+        {
+            "question": "What is a transformer model?",
+            "answer": "A transformer model is a type of neural network architecture that relies on self-attention mechanisms, commonly used in NLP tasks."
+        },
+        {
+            "question": "What is BERT?",
+            "answer": "BERT stands for Bidirectional Encoder Representations from Transformers, a transformer-based model designed to understand the context of a word in search queries."
+        },
+        {
+            "question": "What is GPT?",
+            "answer": "GPT stands for Generative Pre-trained Transformer, a type of transformer model that is trained to predict the next word in a sentence."
+        },
+        {
+            "question": "What is ELMo?",
+            "answer": "ELMo stands for Embeddings from Language Models, a deep contextualized word representation model."
+        },
+        {
+            "question": "What is ULMFiT?",
+            "answer": "ULMFiT stands for Universal Language Model Fine-tuning, a method for transfer learning in NLP."
+        },
+        {
+            "question": "What is fastText?",
+            "answer": "fastText is an open-source, free, lightweight library that allows users to learn text representations and train text classifiers."
+        },
+        {
+            "question": "What is Word2Vec?",
+            "answer": "Word2Vec is a group of related models that are used to produce word embeddings, which are numerical representations of words."
+        },
+        {
+            "question": "What is GloVe?",
+            "answer": "GloVe stands for Global Vectors for Word Representation, an unsupervised learning algorithm for obtaining vector representations for words."
+        },
+        {
+            "question": "What is a language model?",
+            "answer": "A language model is a statistical model that describes the probability of a sequence of words."
+        },
+        {
+            "question": "What is sentiment analysis?",
+            "answer": "Sentiment analysis is the process of determining the emotional tone behind a series of words."
+        },
+        {
+            "question": "What is topic modeling?",
+            "answer": "Topic modeling is a type of statistical model for discovering the abstract topics that occur in a collection of documents."
+        },
+        {
+            "question": "What is named entity recognition (NER)?",
+            "answer": "NER is a process of locating and classifying named entities in text into predefined categories."
+        },
+        {
+            "question": "What is part-of-speech tagging?",
+            "answer": "Part-of-speech tagging is the process of labeling words in a text as corresponding to a particular part of speech."
+        },
+        {
+            "question": "What is parsing in NLP?",
+            "answer": "Parsing is the process of analyzing a string of symbols, either in natural language or in computer languages."
+        },
+        {
+            "question": "What is a parse tree?",
+            "answer": "A parse tree is a tree that represents the syntactic structure of a string according to some formal grammar."
+        },
+        {
+            "question": "What is a dependency tree?",
+            "answer": "A dependency tree is a representation of the grammatical structure of a sentence, showing the dependencies between words."
+        },
+        {
+            "question": "What is a constituency tree?",
+            "answer": "A constituency tree is a type of parse tree that shows the nested structure of constituents in a sentence."
+        },
+        {
+            "question": "What is semantic role labeling?",
+            "answer": "Semantic role labeling is the process of assigning labels to words or phrases in a sentence that indicate their semantic role."
+        },
+        {
+            "question": "What is coreference resolution?",
+            "answer": "Coreference resolution is the task of determining which words in a sentence refer to the same entity."
+        },
+        {
+            "question": "What is word sense disambiguation?",
+            "answer": "Word sense disambiguation is the process of identifying which sense of a word is used in a given context."
+        },
+        {
+            "question": "What is text classification?",
+            "answer": "Text classification is the process of assigning categories or labels to text based on its content."
+        },
+        {
+            "question": "What is text summarization?",
+            "answer": "Text summarization is the process of creating a summary of a long text."
+        },
+        {
+            "question": "What is machine translation?",
+            "answer": "Machine translation is the task of automatically converting source language text into target language text."
+        },
+        {
+            "question": "What is speech recognition?",
+            "answer": "Speech recognition is the process of converting spoken language into text."
+        },
+        {
+            "question": "What is optical character recognition (OCR)?",
+            "answer": "OCR is the process of converting different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data."
+        },
+        {
+            "question": "What is REST?",
+            "answer": "REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems ..."
+        },
+        {
+            "question": "who is zobir ofkir?",
+            "answer": "Team Zubair brings together supporters, businesses, and donors to offer grants to help recently-arriving families in crisis who are starting a new life in ..."
+        }
+    ]
 }
