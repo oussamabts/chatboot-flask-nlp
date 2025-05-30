@@ -25,4 +25,4 @@ def ask():
     return jsonify(response), 200
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(host='192.168.11.232', port=5000, debug=True)
